@@ -1,4 +1,3 @@
-# SOAR-EDR 
 # Security Automated Threat Detection & Response
 This **SOAR-EDR-Automation** automates threat detection, alerting, and machine isolation using **LimaCharlie, Tines, Slack, and Email**. It streamlines incident response, reducing manual effort while ensuring fast and accurate remediation. Ideal for security teams looking to enhance efficiency and minimize threats.
 
