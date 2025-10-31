@@ -5,7 +5,6 @@ This **SOAR-EDR-Automation** automates threat detection, alerting, and machine i
 
 ## Features
 
-
 **Automated Threat Detection** – Detects hack tools and malicious activities using **LimaCharlie**  
 **Real-time Alerting** – Sends alerts with detailed information via **Slack and Email**  
 **User Decision Workflow** – Prompts for manual confirmation before isolating a machine  
