@@ -3,7 +3,6 @@ This **SOAR-EDR-Automation** automates threat detection, alerting, and machine i
 
 
 
-
 ![diagram](/assets/diagram.png)
 
 ## Features
