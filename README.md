@@ -16,7 +16,7 @@ By integrating **LimaCharlie EDR** with **Tines Automation**, the system detects
 ## Features
 
 **Automated Threat Detection** – Detects hack tools and malicious activities using **LimaCharlie**  
-**Real-time Alerting** – Sends alerts with detailed information via **Slack and Email**  
+**Real-time Alerting** – Sends alerts with detailed information via **Slack and SMTP**  
 **User Decision Workflow** – Prompts for manual confirmation before isolating a machine  
 **Automated Machine Isolation** – Uses **LimaCharlie** to isolate infected systems  
 **Incident Tracking** – Notifies teams via **Slack** if a machine is isolated or if further investigation is needed  
@@ -27,7 +27,7 @@ By integrating **LimaCharlie EDR** with **Tines Automation**, the system detects
    - A threat detection alert is generated and sent to **Tines**
 
 2. **Alerting & Notification**
-   - Tines processes the detection alert and sends real-time notifications via **Slack** and **Email**.
+   - Tines processes the detection alert and sends real-time notifications via **Slack** and **SMTP**.
 
 3. **User Decision Prompt**
    - The user is prompted via a web UI (powered by Tines) to decide whether to isolate the compromised machine.
@@ -44,8 +44,8 @@ By integrating **LimaCharlie EDR** with **Tines Automation**, the system detects
 
 ## **Alert Examples**
 
-### **Email Alert**
-An email notification is sent to security teams, providing details about the detected threat, including:
+### **SMTP Alert**
+An SMTP notification is sent to security teams, providing details about the detected threat, including:
 - Detection Type
 - Timestamp
 - Affected Host
@@ -55,7 +55,7 @@ An email notification is sent to security teams, providing details about the det
 - Command Executed
 - Sensor ID
 
-![Email Notification](./assets/email.png)
+![SMTP Notification](./assets/SMTP.png)
 <p align="center">Figure 1: E-mail</p>
 
  
@@ -73,9 +73,8 @@ Security analysts can decide whether to isolate the machine through an interacti
 <p align="center">Figure 3: User Decision Page</p>
 
 
-## Technologies Used
-
-- **LimaCharlie** – EDR (Endpoint Detection and Response)  
-- **Tines** – Security Automation & Orchestration 
-- **Slack** – Real-time Team Notifications & Alerts
-- **Email** – Incident Alerting & Reporting
+## Technology Stack
+*   **LimaCharlie:** Endpoint Detection and Response (EDR) & Artifact Collection.
+*   **Tines:** No-code automation platform for logic orchestration.
+*   **Slack:** Real-time communication and interactive response hub.
+*   **SendGrid/SMTP:** Formal incident reporting and audit trails.
