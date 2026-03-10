@@ -1,11 +1,19 @@
 # Security Automated Threat Detection & Response
-This **SOAR-EDR-Automation** automates threat detection, alerting, and machine isolation using **LimaCharlie, Tines, Slack, and Email**. It streamlines incident response, reducing manual effort while ensuring fast and accurate remediation. Ideal for security teams looking to enhance efficiency and minimize threats.
+### *Intelligent Threat Detection & Automated Incident Response*
 
-![diagram](/assets/diagram.png)
+[![EDR: LimaCharlie](https://img.shields.io/badge/EDR-LimaCharlie-blueviolet?style=for-the-badge&logo=appveyor)](https://limacharlie.io/)
+[![Automation: Tines](https://img.shields.io/badge/Automation-Tines-blue?style=for-the-badge&logo=tines)](https://www.tines.com/)
+[![Alerts: Slack](https://img.shields.io/badge/Alerts-Slack-green?style=for-the-badge&logo=slack)](https://slack.com/)
+[![Built for: Security Ops](https://img.shields.io/badge/Focus-Security%20Operations-red?style=for-the-badge)](https://github.com/)
+
+---
+
+## 📖 Project Overview
+This project implements a high-performance **SOAR (Security Orchestration, Automation, and Response)** workflow designed to bridge the gap between initial detection and final remediation. 
+
+By integrating **LimaCharlie EDR** with **Tines Automation**, the system detects malicious activities (such as credential dumping or hack-tool execution) and orchestrates a seamless response path including real-time alerting and automated machine isolation with human-in-the-loop validation.
 
 ## Features
-
-
 
 **Automated Threat Detection** – Detects hack tools and malicious activities using **LimaCharlie**  
 **Real-time Alerting** – Sends alerts with detailed information via **Slack and Email**  
