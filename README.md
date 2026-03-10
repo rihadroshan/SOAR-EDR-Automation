@@ -4,7 +4,7 @@
 [![Alerts: Slack](https://img.shields.io/badge/Alerts-Slack-green?style=for-the-badge&logo=slack)](https://github.com/rihadroshan/SOAR-EDR-Automation)
 [![Built for: Security Ops](https://img.shields.io/badge/Focus-Security%20Operations-red?style=for-the-badge)](https://github.com/rihadroshan/SOAR-EDR-Automation)
 
-## 📖 Project Overview
+## Project Overview
 This project implements a high-performance **SOAR (Security Orchestration, Automation, and Response)** workflow designed to bridge the gap between initial detection and final remediation. 
 
 By integrating **LimaCharlie EDR** with **Tines Automation**, the system detects malicious activities (such as credential dumping or hack-tool execution) and orchestrates a seamless response path including real-time alerting and automated machine isolation with human-in-the-loop validation.
