@@ -1,7 +1,7 @@
 # Security Automated Threat Detection & Response
-[![EDR: LimaCharlie](https://img.shields.io/badge/EDR-LimaCharlie-blueviolet?style=for-the-badge&logo=appveyor)](https://limacharlie.io/)
-[![Automation: Tines](https://img.shields.io/badge/Automation-Tines-blue?style=for-the-badge&logo=tines)](https://www.tines.com/)
-[![Alerts: Slack](https://img.shields.io/badge/Alerts-Slack-green?style=for-the-badge&logo=slack)](https://slack.com/)
+[![EDR: LimaCharlie](https://img.shields.io/badge/EDR-LimaCharlie-blueviolet?style=for-the-badge&logo=appveyor)](https://github.com/rihadroshan/SOAR-EDR-Automation)
+[![Automation: Tines](https://img.shields.io/badge/Automation-Tines-blue?style=for-the-badge&logo=tines)](https://github.com/rihadroshan/SOAR-EDR-Automation)
+[![Alerts: Slack](https://img.shields.io/badge/Alerts-Slack-green?style=for-the-badge&logo=slack)](https://github.com/rihadroshan/SOAR-EDR-Automation)
 [![Built for: Security Ops](https://img.shields.io/badge/Focus-Security%20Operations-red?style=for-the-badge)](https://github.com/rihadroshan/SOAR-EDR-Automation)
 
 ## 📖 Project Overview
