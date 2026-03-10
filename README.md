@@ -4,8 +4,6 @@
 [![Alerts: Slack](https://img.shields.io/badge/Alerts-Slack-green?style=for-the-badge&logo=slack)](https://slack.com/)
 [![Built for: Security Ops](https://img.shields.io/badge/Focus-Security%20Operations-red?style=for-the-badge)](https://github.com/)
 
----
-
 ## 📖 Project Overview
 This project implements a high-performance **SOAR (Security Orchestration, Automation, and Response)** workflow designed to bridge the gap between initial detection and final remediation. 
 
