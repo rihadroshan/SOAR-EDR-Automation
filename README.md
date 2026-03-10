@@ -1,6 +1,4 @@
 # Security Automated Threat Detection & Response
-### *Intelligent Threat Detection & Automated Incident Response*
-
 [![EDR: LimaCharlie](https://img.shields.io/badge/EDR-LimaCharlie-blueviolet?style=for-the-badge&logo=appveyor)](https://limacharlie.io/)
 [![Automation: Tines](https://img.shields.io/badge/Automation-Tines-blue?style=for-the-badge&logo=tines)](https://www.tines.com/)
 [![Alerts: Slack](https://img.shields.io/badge/Alerts-Slack-green?style=for-the-badge&logo=slack)](https://slack.com/)
