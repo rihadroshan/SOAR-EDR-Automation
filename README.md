@@ -17,22 +17,10 @@ By integrating **LimaCharlie EDR** with **Tines Automation**, the system detects
 **Automated Machine Isolation** – Uses **LimaCharlie** to isolate infected systems  
 **Incident Tracking** – Notifies teams via **Slack** if a machine is isolated or if further investigation is needed  
 
-## 🔄 The Automation Workflow
+## The Automation Workflow
 The system follows a logic-driven lifecycle to ensure no threat goes unaddressed.
 
-```mermaid
-graph TD
-    A[Root: Malicious Activity] -->|Detected by| B(LimaCharlie EDR)
-    B -->|Webhook Alert| C{Tines Workflow}
-    C -->|Notify| D[Slack Alert]
-    C -->|Notify| E[Email Report]
-    C -->|Interactive| F[User Decision Page]
-    
-    F -->|Approve Isolation| G[LimaCharlie: Isolate Machine]
-    F -->|Deny Isolation| H[Slack: Log Investigation Request]
-    
-    G --> I[Slack: Confirmation Message]
-```
+![Diagram Notification](./assets/Diagram.png)
 
 ## **Workflow Overview**
 1. **Threat Detection**
